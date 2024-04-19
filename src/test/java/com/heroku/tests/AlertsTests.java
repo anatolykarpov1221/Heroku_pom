@@ -13,6 +13,14 @@ public class AlertsTests extends TestBase{
       @Test
     public void alertWithOkTest(){
           new AlertsPage(driver).alertWithOk();
+      }
+      @Test
+    public void alertWithSelectTest(){
+          new AlertsPage(driver).selectConfirm("Cancel").verifyResult("Cancel");
+      }
+      @Test
+    public void alertWithPromptTest(){
+          new AlertsPage(driver).alertWithPrompt("Hello Trump").verifyMessage("Hello Trump");
 
       }
 

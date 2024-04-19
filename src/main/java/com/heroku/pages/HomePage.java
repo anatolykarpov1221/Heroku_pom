@@ -16,4 +16,17 @@ public class HomePage extends BasePage{
         click(jsalerts);
         return new HomePage(driver);
     }
+    @FindBy(css="a[href='/windows']")
+    WebElement MultipleWindowsButton;
+
+    public HomePage selectMultipleWindows() {
+        click(MultipleWindowsButton);
+        return this;
+    }
+    @FindBy(css="a[href='/checkboxes']")
+    WebElement CheckBoxes;
+    public HomePage openCheckBoxesPage() {
+        click(CheckBoxes);
+        return this;
+    }
 }
