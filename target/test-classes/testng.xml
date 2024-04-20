@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoky" verbose="1">
+    <test name="Smoky">
+        <classes>
+            <class name="com.heroku.tests.AlertsTests"/>
+            <class name="com.heroku.tests.CheckboxesTest"/>
+            <class name="com.heroku.tests.DropdownTests"/>
+            <class name="com.heroku.tests.NewWindowTest"/>
+            <class name="com.heroku.tests.UploadFileTests"/>
+        </classes>
+    </test>
+
+
+
+
+</suite>

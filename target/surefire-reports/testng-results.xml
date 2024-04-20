@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-21T00:20:29 CEST" name="Smoky" finished-at="2024-04-21T00:21:04 CEST" duration-ms="34718">
+    <groups>
+    </groups>
+    <test started-at="2024-04-21T00:20:29 CEST" name="Smoky" finished-at="2024-04-21T00:21:04 CEST" duration-ms="34718">
+      <class name="com.heroku.tests.NewWindowTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.heroku.tests.NewWindowTest@69997e9d]" started-at="2024-04-21T00:20:55 CEST" name="init" finished-at="2024-04-21T00:20:58 CEST" duration-ms="3696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.heroku.tests.NewWindowTest@69997e9d]" started-at="2024-04-21T00:20:58 CEST" name="precondition" finished-at="2024-04-21T00:20:59 CEST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="newWindowTest()[pri:0, instance:com.heroku.tests.NewWindowTest@69997e9d]" started-at="2024-04-21T00:20:59 CEST" name="newWindowTest" finished-at="2024-04-21T00:20:59 CEST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.heroku.tests.NewWindowTest@69997e9d]" started-at="2024-04-21T00:20:59 CEST" name="tearDown" finished-at="2024-04-21T00:20:59 CEST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroku.tests.NewWindowTest -->
+      <class name="com.heroku.tests.CheckboxesTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.heroku.tests.CheckboxesTest@212b5695]" started-at="2024-04-21T00:20:44 CEST" name="init" finished-at="2024-04-21T00:20:47 CEST" duration-ms="3663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.heroku.tests.CheckboxesTest@212b5695]" started-at="2024-04-21T00:20:47 CEST" name="precondition" finished-at="2024-04-21T00:20:47 CEST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testCheckboxes()[pri:0, instance:com.heroku.tests.CheckboxesTest@212b5695]" started-at="2024-04-21T00:20:47 CEST" name="testCheckboxes" finished-at="2024-04-21T00:20:49 CEST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.heroku.tests.CheckboxesTest@212b5695]" started-at="2024-04-21T00:20:49 CEST" name="tearDown" finished-at="2024-04-21T00:20:49 CEST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroku.tests.CheckboxesTest -->
+      <class name="com.heroku.tests.AlertsTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.heroku.tests.AlertsTests@40cb8df7]" started-at="2024-04-21T00:20:29 CEST" name="init" finished-at="2024-04-21T00:20:34 CEST" duration-ms="4850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.heroku.tests.AlertsTests@40cb8df7]" started-at="2024-04-21T00:20:34 CEST" name="precondition" finished-at="2024-04-21T00:20:35 CEST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="alertWithOkTest()[pri:0, instance:com.heroku.tests.AlertsTests@40cb8df7]" started-at="2024-04-21T00:20:35 CEST" name="alertWithOkTest" finished-at="2024-04-21T00:20:35 CEST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertWithOkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.heroku.tests.AlertsTests@40cb8df7]" started-at="2024-04-21T00:20:35 CEST" name="tearDown" finished-at="2024-04-21T00:20:35 CEST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.heroku.tests.AlertsTests@40cb8df7]" started-at="2024-04-21T00:20:35 CEST" name="init" finished-at="2024-04-21T00:20:39 CEST" duration-ms="3682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.heroku.tests.AlertsTests@40cb8df7]" started-at="2024-04-21T00:20:39 CEST" name="precondition" finished-at="2024-04-21T00:20:39 CEST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="alertWithPromptTest()[pri:0, instance:com.heroku.tests.AlertsTests@40cb8df7]" started-at="2024-04-21T00:20:39 CEST" name="alertWithPromptTest" finished-at="2024-04-21T00:20:39 CEST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertWithPromptTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.heroku.tests.AlertsTests@40cb8df7]" started-at="2024-04-21T00:20:39 CEST" name="tearDown" finished-at="2024-04-21T00:20:39 CEST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.heroku.tests.AlertsTests@40cb8df7]" started-at="2024-04-21T00:20:39 CEST" name="init" finished-at="2024-04-21T00:20:43 CEST" duration-ms="3824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.heroku.tests.AlertsTests@40cb8df7]" started-at="2024-04-21T00:20:43 CEST" name="precondition" finished-at="2024-04-21T00:20:43 CEST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="alertWithSelectTest()[pri:0, instance:com.heroku.tests.AlertsTests@40cb8df7]" started-at="2024-04-21T00:20:43 CEST" name="alertWithSelectTest" finished-at="2024-04-21T00:20:43 CEST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertWithSelectTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.heroku.tests.AlertsTests@40cb8df7]" started-at="2024-04-21T00:20:43 CEST" name="tearDown" finished-at="2024-04-21T00:20:44 CEST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroku.tests.AlertsTests -->
+      <class name="com.heroku.tests.UploadFileTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.heroku.tests.UploadFileTests@793be5ca]" started-at="2024-04-21T00:20:59 CEST" name="init" finished-at="2024-04-21T00:21:03 CEST" duration-ms="3599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.heroku.tests.UploadFileTests@793be5ca]" started-at="2024-04-21T00:21:03 CEST" name="precondition" finished-at="2024-04-21T00:21:03 CEST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="uploadFileTest()[pri:0, instance:com.heroku.tests.UploadFileTests@793be5ca]" started-at="2024-04-21T00:21:03 CEST" name="uploadFileTest" finished-at="2024-04-21T00:21:04 CEST" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFileTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.heroku.tests.UploadFileTests@793be5ca]" started-at="2024-04-21T00:21:04 CEST" name="tearDown" finished-at="2024-04-21T00:21:04 CEST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroku.tests.UploadFileTests -->
+      <class name="com.heroku.tests.DropdownTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.heroku.tests.DropdownTests@446293d]" started-at="2024-04-21T00:20:49 CEST" name="init" finished-at="2024-04-21T00:20:53 CEST" duration-ms="3796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.heroku.tests.DropdownTests@446293d]" started-at="2024-04-21T00:20:53 CEST" name="precondition" finished-at="2024-04-21T00:20:53 CEST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="selectOptionTest()[pri:0, instance:com.heroku.tests.DropdownTests@446293d]" started-at="2024-04-21T00:20:53 CEST" name="selectOptionTest" finished-at="2024-04-21T00:20:55 CEST" duration-ms="1709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectOptionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.heroku.tests.DropdownTests@446293d]" started-at="2024-04-21T00:20:55 CEST" name="tearDown" finished-at="2024-04-21T00:20:55 CEST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.heroku.tests.DropdownTests -->
+    </test> <!-- Smoky -->
+  </suite> <!-- Smoky -->
+</testng-results>

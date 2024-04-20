@@ -1,0 +1,6 @@
+com/heroku/tests/UploadFileTests.class
+com/heroku/tests/AlertsTests.class
+com/heroku/tests/TestBase.class
+com/heroku/tests/DropdownTests.class
+com/heroku/tests/NewWindowTest.class
+com/heroku/tests/CheckboxesTest.class

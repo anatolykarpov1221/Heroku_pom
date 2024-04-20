@@ -1,0 +1,7 @@
+com/heroku/pages/CheckboxPage.class
+com/heroku/pages/DropdownPage.class
+com/heroku/pages/BasePage.class
+com/heroku/pages/MultipleWindowsPage.class
+com/heroku/pages/UploadFilePage.class
+com/heroku/pages/HomePage.class
+com/heroku/pages/AlertsPage.class
