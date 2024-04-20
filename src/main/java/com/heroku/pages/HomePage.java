@@ -29,4 +29,16 @@ public class HomePage extends BasePage{
         click(CheckBoxes);
         return this;
     }
+    @FindBy(css="a[href='/dropdown']")
+    WebElement Dropdown;
+    public HomePage dropdown() {
+        click(Dropdown);
+        return this;
+    }
+    @FindBy(css="a[href='/upload']")
+    WebElement Upload;
+    public HomePage Upload() {
+        click(Upload);
+        return this;
+    }
 }

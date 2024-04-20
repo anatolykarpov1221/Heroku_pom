@@ -11,7 +11,8 @@ public class CheckboxesTest extends TestBase {
     public void precondition(){
         new HomePage(driver).openCheckBoxesPage();
     }
-    @Test    public void testCheckboxes() throws InterruptedException {
+    @Test
+    public void testCheckboxes() throws InterruptedException {
         CheckboxPage checkboxPage = new CheckboxPage(driver);
         checkboxPage.selectCheckbox1();
         Thread.sleep(1000);
