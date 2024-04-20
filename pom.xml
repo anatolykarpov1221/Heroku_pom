@@ -26,19 +26,8 @@
             <artifactId>testng</artifactId>
             <version>7.10.1</version>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.10.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.10.1</version>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
+
 
     <build>
         <testResources>
@@ -64,8 +53,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <systemPropertyVariables>
-                        <application.properties>/application.properties</application.properties>
+                    <systemPropertyVariables>                   <application.properties>/application.properties</application.properties>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
@@ -80,6 +68,7 @@
             </plugin>
         </plugins>
     </build>
+
 
 
 </project>
