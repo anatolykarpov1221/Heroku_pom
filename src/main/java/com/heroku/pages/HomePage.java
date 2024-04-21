@@ -41,4 +41,10 @@ public class HomePage extends BasePage{
         click(Upload);
         return this;
     }
+    @FindBy(css = "a[href='/broken_images']")
+    WebElement BrokenImages;
+    public HomePage selectBrokenLinksImages() {
+        click((BrokenImages));
+        return this;
+    }
 }
