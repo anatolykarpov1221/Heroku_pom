@@ -9,6 +9,8 @@
             <class name="com.heroku.tests.NewWindowTest"/>
             <class name="com.heroku.tests.UploadFileTests"/>
             <class name="com.heroku.tests.BrokenLinksImagesTests"/>
+            <class name="com.heroku.tests.DroppableTests"/>
+
         </classes>
     </test>
 

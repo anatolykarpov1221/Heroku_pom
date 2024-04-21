@@ -44,7 +44,13 @@ public class HomePage extends BasePage{
     @FindBy(css = "a[href='/broken_images']")
     WebElement BrokenImages;
     public HomePage selectBrokenLinksImages() {
-        click((BrokenImages));
+        click(BrokenImages);
+        return this;
+    }
+    @FindBy(css = "a[href='/drag_and_drop']")
+    WebElement DragAndDrop;
+    public HomePage getDragAndDrop() {
+        click(DragAndDrop);
         return this;
     }
 }
