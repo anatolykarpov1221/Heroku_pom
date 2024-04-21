@@ -16,11 +16,20 @@ public class CheckboxPage extends BasePage{
         click(checkbox1);
         return this;
     }
-    public CheckboxPage selectCheckbox2() {
-        click(checkbox2);
-        click(checkbox2);
+    public CheckboxPage selectCheckbox2(boolean selectBoth) {
+        if (selectBoth) {
+            if (!checkbox1.isSelected()) {
+                click(checkbox1);
+            }
+            if (!checkbox2.isSelected()) {
+                click(checkbox2);
+            }
+        } else {
+            click(checkbox2);
+        }
         return this;
     }
+
     public boolean areCheckboxesSelected() {
         boolean checkbox1Selected = checkbox1.isSelected();
         boolean checkbox2Selected = checkbox2.isSelected();

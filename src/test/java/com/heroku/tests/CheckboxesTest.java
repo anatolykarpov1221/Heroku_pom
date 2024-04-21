@@ -17,7 +17,7 @@ public class CheckboxesTest extends TestBase {
         checkboxPage.selectCheckbox1();
         Thread.sleep(1000);
         // Пауза в 1 секунду чоб увидеть два клика
-        checkboxPage.selectCheckbox2();
+        checkboxPage.selectCheckbox2(true);
         // Проверка состояния обоих
         boolean areCheckboxesSelected = checkboxPage.areCheckboxesSelected();
         Assert.assertTrue(areCheckboxesSelected, "Checkboxes are selected as expected.");    }
